@@ -71,7 +71,7 @@ public class paciente {
 
     public void setClasificacion(String clasificacion) {
         this.clasificacion = clasificacion;
-    }
+    }  
     
-    
+   
 }

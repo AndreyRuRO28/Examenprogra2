@@ -17,15 +17,19 @@ public class optPacientes extends paciente {
     
     
     class agregarPaciente{
-        
+           
     }
     
     class AtnPaciente{ //Dar el paciente por atendido
-        
+    
     }
     
     class busqPaciente{
-        String nombCliente;
-        
+        paciente paci;
+        if(paciente==paci){
+                System.out.println("El paciente: "+ paci+ " existe registrado");
+    }else{
+                System.out.println("El paciente: "+ paci+ " no existe registrado");
+    }
     }
 }
